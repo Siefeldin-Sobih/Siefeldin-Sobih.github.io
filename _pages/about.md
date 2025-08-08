@@ -26,7 +26,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
 Hi there, I’m Saif! A researcher, teacher, and wildlife conservationist exploring how microscopic life shapes animal behavior and conservation strategies. My work sits at the intersection of programming, statistical modeling, machine learning, and field biology—turning complex data into insights that protect species.
 
 As an Outreach Officer and Teaching Assistant at Utah State University’s Biology Department, I thrive on teaching and supporting people of all ages, building science literacy, and leading community-focused conservation projects. I’m equally at home collecting field samples in remote habitats or deep-diving into code to model biological systems in my apartment's office.

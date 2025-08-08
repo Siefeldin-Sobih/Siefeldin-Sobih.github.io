@@ -7,8 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-# Coursework & Certifications
-
 - The Power of Statistics (Google, Coursera) - January, 2025
 
 - Academic Writing Specialization (University of California, Irvine, Coursera)  - February, 2021 

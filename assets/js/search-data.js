@@ -44,6 +44,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/awardsandscholarships/";
           },
+        },{id: "nav-volunteering",
+          title: "Volunteering",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/volunteer/";
+          },
+        },{id: "nav-references",
+          title: "References",
+          description: "Exceptional individuals I have worked with or under, who are kindly willing to provide feedback upon request.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/references/";
+          },
         },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",

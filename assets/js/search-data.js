@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-awards-and-scholarships",
           title: "AWARDS AND SCHOLARSHIPS",
-          description: "Awards and Scholarships granted.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/awardsandscholarships/";

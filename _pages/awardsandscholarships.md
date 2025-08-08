@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 6
 ---
-### For Certificates click -> [Here] (https://drive.google.com/drive/folders/1h0Kd9bKYtfLiGb4M3B7OC7jOcPwLtbiP?usp=sharing) 
+For Certificates click -> [Here] (https://drive.google.com/drive/folders/1h0Kd9bKYtfLiGb4M3B7OC7jOcPwLtbiP?usp=sharing) 
 
 ## Scholarships
 

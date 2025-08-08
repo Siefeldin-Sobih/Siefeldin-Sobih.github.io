@@ -2,7 +2,8 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle:
+
+# Siefeldin Sobih
 
 profile:
   align: right
@@ -21,8 +22,10 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
-Hi there, I’m Saif! A researcher, teacher, and wildlife conservationist exploring how microscopic life shapes animal behavior and conservation strategies. My work sits at the intersection of programming, statistical modeling, machine learning, and field biology—turning complex data into insights that protect species.
+Hi, I'm Saif! I'm passionate about wildlife conservation through the lens of data and discovery. My research explores how bacterial communities influences animal behavior and survival, shaping the conservation strategies we need to protect species.
 
-As an Outreach Officer and Teaching Assistant at Utah State University’s Biology Department, I thrive on teaching and supporting people of all ages, building science literacy, and leading community-focused conservation projects. I’m equally at home collecting field samples in remote habitats or deep-diving into code to model biological systems in my apartment's office.
+I work at the intersection of computational biology and field research, using statistical modeling and machine learning to turn complex datasets into actionable insights. There's something exciting about finding patterns in data that can actually make a difference for wildlife in the wild.
 
-What drives me is impact: every dataset analyzed, student mentored, or story shared helps build stronger conservation efforts and more connected communities. I enjoy routine, but get bored quickly, and thus I make sure every project I take on pushes me, toward positive change.
+As the Outreach Officer and Teaching Assistant in Utah State University's Biology Department, I spend a lot of time sharing the excitement of science with students and community members of all ages. Building science literacy and helping people connect with research is just as rewarding as the research itself.
+
+What really drives me is impact. Whether I'm analyzing a new dataset, mentoring a student to success, or tackling a challenging problem, I want every project to push boundaries and create positive change. I thrive on variety and growth, always looking for work that challenges me while contributing to stronger conservation efforts and more connected communities.

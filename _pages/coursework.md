@@ -17,12 +17,3 @@ nav_order: 5
 
 - Code In Place (CS106, Stanford University) - May, June 2020  
   - [Project link](https://compedu.stanford.edu/codeinplace/public/projects/0263.html)
-
-
-
-
-
-
-
-
-

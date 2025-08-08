@@ -6,17 +6,17 @@ description: Exceptional individuals I have worked with or under, who are kindly
 nav: true
 nav_order: 8
 ---
-# Name: Dr. Jane Smith 1
+### Name: Dr. Jane Smith 1
 - Position: Professor of Computer Science, XYZ University
 - Relationship: MSc Mentor
 - Contact: jane.smith@xyz.edu
 
-# Name: Dr. Jane Smith 2
+### Name: Dr. Jane Smith 2
 - Position: Professor of Computer Science, XYZ University
 - Relationship: MSc Mentor
 - Contact: jane.smith@xyz.edu
 
-# Name: Dr. Jane Smith 3
+## Name: Dr. Jane Smith 3
 - Position: Professor of Computer Science, XYZ University
 - Relationship: MSc Mentor
 - Contact: jane.smith@xyz.edu

@@ -2,14 +2,12 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description:
+description: My projects live here. Back then, I wasn’t in the habit of uploading my work, but I’ve been adopting better programming practices. More projects will be added as I keep building, stay tuned!
 nav: true
 nav_order: 4
 ---
 
 {% if site.data.repositories.github_users %}
-
-## GitHub users
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}

@@ -3,8 +3,6 @@ layout: about
 title: ABOUT
 permalink: /
 
-# Siefeldin Sobih
-
 profile:
   align: right
   image: me.jpeg
@@ -22,6 +20,7 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
+# Siefeldin Sobih
 Hi, I'm Saif! I'm passionate about wildlife conservation through the lens of data and discovery. My research explores how bacterial communities influences animal behavior and survival, shaping the conservation strategies we need to protect species.
 
 I work at the intersection of computational biology and field research, using statistical modeling and machine learning to turn complex datasets into actionable insights. There's something exciting about finding patterns in data that can actually make a difference for wildlife in the wild.

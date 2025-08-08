@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-awards-and-scholarships",
-          title: "AWARDS AND SCHOLARSHIPS",
-          description: "Awards and Scholarships granted.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/awardsandscholarships/";
-          },
         },{id: "nav-publications",
           title: "PUBLICATIONS",
           description: "Publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-awards-and-scholarships",
+          title: "AWARDS AND SCHOLARSHIPS",
+          description: "Awards and Scholarships granted.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awardsandscholarships/";
           },
         },{id: "nav-teaching",
           title: "teaching",

@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Siefeldin-Sobih
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Siefeldin-Sobih/Siefeldin-Sobih.github.io
+  - Siefeldin-Sobih/Cross-sectional-rock-iguana-anlaysis

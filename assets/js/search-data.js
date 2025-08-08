@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-coursework-amp-certifications",
-          title: "Coursework &amp; Certifications",
+        },{id: "nav-certifications",
+          title: "Certifications",
           description: "Credentials earned from completing online courses and internships.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/coursework/";
           },
-        },{id: "nav-awards-amp-scholarships",
-          title: "Awards &amp; Scholarships",
+        },{id: "nav-recognitions",
+          title: "Recognitions",
           description: "",
           section: "Navigation",
           handler: () => {

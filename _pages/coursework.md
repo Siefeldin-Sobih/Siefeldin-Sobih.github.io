@@ -6,7 +6,7 @@ description: Credentials earned from completing online courses and internships.
 nav: true
 nav_order: 5
 ---
-For Certificates click -> [Here] (https://drive.google.com/drive/folders/1h0Kd9bKYtfLiGb4M3B7OC7jOcPwLtbiP?usp=sharing) 
+For Certificates click [Here](https://drive.google.com/drive/folders/1h0Kd9bKYtfLiGb4M3B7OC7jOcPwLtbiP?usp=sharing) 
 
 - The Power of Statistics (Google, Coursera) - January, 2025
 

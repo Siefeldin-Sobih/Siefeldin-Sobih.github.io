@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-publications",
           title: "PUBLICATIONS",
           description: "Publications by categories in reversed chronological order.",
@@ -30,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-awards-and-scholarships",
-          title: "AWARDS AND SCHOLARSHIPS",
-          description: "Awards and Scholarships granted.",
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/awardsandscholarships/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -44,19 +37,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
+        },{id: "nav-awards-and-scholarships",
+          title: "AWARDS AND SCHOLARSHIPS",
+          description: "Awards and Scholarships granted.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awardsandscholarships/";
+          },
+        },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",

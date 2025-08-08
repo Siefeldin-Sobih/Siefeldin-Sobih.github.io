@@ -9,27 +9,15 @@ nav_order: 5
 
 # Coursework & Certifications
 
-- The Power of Statistics (Google, Coursera)  
-  Completed January 15, 2025 - 31 hours - Grade: 99.16%  
-  Statistical concepts and applications.
+- The Power of Statistics (Google, Coursera) - January, 2025
 
-- Academic Writing Specialization (University of California, Irvine, Coursera)  
-    - Includes Advanced Writing and Getting Started with Essay Writing  
-    - Advanced Writing completed June 9, 2021 - 19 hours - Grade: 90.57%  
-    - Getting Started with Essay Writing completed June 6, 2021 - 19 hours - Grade: 90.16%  
-    - Grammar and Punctuation completed February 4, 2021 - 17 hours - Grade: 100%  
+- Academic Writing Specialization (University of California, Irvine, Coursera)  - February, 2021 
 
-- Principles of Biochemistry (MCB63X, HarvardX, EdX)  
-  - Course ended February 9, 2021  
-  - Fundamental biochemical processes in living organisms.
+- Principles of Biochemistry (MCB63X, HarvardX, EdX) - February, 2021  
 
-- Introduction to Genetics and Evolution (BIO202L, Duke University, Coursera)  
-  - Completed May 25, 2020 - 25 hours - Grade: 80.10%  
-  - Basics of genetics and evolutionary principles.
+- Introduction to Genetics and Evolution (BIO202L, Duke University, Coursera) - May 25, 2020 
 
-- Code In Place (CS106, Stanford University)  
-  - May - June 2020  
-  - Python basics, libraries, reproducible code; projects include fire detection and GUIs.  
+- Code In Place (CS106, Stanford University) - May, June 2020  
   - [Project link](https://compedu.stanford.edu/codeinplace/public/projects/0263.html)
 
 

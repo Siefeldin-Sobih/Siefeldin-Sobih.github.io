@@ -19,9 +19,9 @@ nav_order: 6
 
 ## Awards and Recognition
 
-- Explore Graduate Teaching Certificate – Center for Empowering Teaching Excellence (ETE), Utah State University – August 2025
+- Explore Graduate Teaching Certificate – Center for Empowering Teaching Excellence (ETE), Utah State University – August, 2025
 
-- Best Scientific Article in Biology – Zewail City Open Courseware – March 2022
+- Best Scientific Article in Biology – Zewail City Open Courseware – March, 2022
 
 - Certificate of Gratitude for excellent presentation skills and graduation project design from the Dean of Faculty of Agriculture, Cairo University – 2021
 

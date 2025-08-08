@@ -16,27 +16,12 @@ nav_order: 8
 - Relationship: MSc Mentor
 - Contact: jane.smith@xyz.edu
 
-## Name: Dr. Jane Smith 3
+### Name: Dr. Jane Smith 3
 - Position: Professor of Computer Science, XYZ University
 - Relationship: MSc Mentor
 - Contact: jane.smith@xyz.edu
 
-# Name: Dr. Jane Smith 4
-- Position: Professor of Computer Science, XYZ University
-- Relationship: MSc Mentor
-- Contact: jane.smith@xyz.edu
-
-# Name: Dr. Jane Smith 5
-- Position: Professor of Computer Science, XYZ University
-- Relationship: MSc Mentor
-- Contact: jane.smith@xyz.edu
-
-# Name: Dr. Jane Smith 6
-- Position: Professor of Computer Science, XYZ University
-- Relationship: MSc Mentor
-- Contact: jane.smith@xyz.edu
-
-# Name: Dr. Jane Smith 7
+### Name: Dr. Jane Smith 4
 - Position: Professor of Computer Science, XYZ University
 - Relationship: MSc Mentor
 - Contact: jane.smith@xyz.edu

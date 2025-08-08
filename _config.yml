@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Welcome # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: Siefeldin
 #middle_name: E.           COMMENTED OUT - NOT WANTED
 last_name: Sobih

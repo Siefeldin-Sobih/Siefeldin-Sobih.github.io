@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Awards & Scholarships
+title: Recognitions
 permalink: /awardsandscholarships/
 description:
 nav: true

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /coursework/
-title: Coursework & Certifications
+title: Certifications
 description: Credentials earned from completing online courses and internships.
 nav: true
 nav_order: 5

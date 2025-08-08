@@ -16,6 +16,10 @@ profile:
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: # leave blank to include all the news in the `_news` folder
 ---
 Hi there, I’m Saif! A researcher, teacher, and wildlife conservationist exploring how microscopic life shapes animal behavior and conservation strategies. My work sits at the intersection of programming, statistical modeling, machine learning, and field biology—turning complex data into insights that protect species.
 

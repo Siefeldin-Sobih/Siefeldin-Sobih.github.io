@@ -15,7 +15,9 @@ nav_order: 7
 - Advocated for biology graduate students and foster community engagement in science education
 
 **Education Clinic - Science Communicator** 
-- 
+- Translated complex biological and programming concepts into accessible articles for general audiences
+- Created engaging, jargon-free explanations for biology-related topics while maintaining scientific accuracy
+- Received a [certificate](https://drive.google.com/file/d/1f83ibTyxH8_th2ubqdJ65Gt6UQhJ85O-/view?usp=sharing) for my dedication and quality of work
 
 **Talent Manager - Enactus - Cairo University** - 2018, May -> 2018, August
 - Analyzed performance and engagement of volunteers, providing targeted feedback that improved multiple project completion rates

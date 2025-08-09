@@ -13,7 +13,7 @@ nav_order: 8
 - Contact: karen.kapheim@usu.edu
 
 ### Dr. Susannah French
-- About: My research data came from a grant written by [Susannah](https://frenchlab.weebly.com/people.html), Karen, and others. She is part of my committee and has been supporting me to succeed
+- About: My research data came from a grant written by [Susannah](https://frenchlab.weebly.com/people.html), Karen, and others. She is part of my committee and has been an integral part to my success
 - Position: Professor, Biology deparment, Utah State University
 - Relationship: Committee Member, Mentor
 - Contact: sfrench@biology.usu.edu

@@ -14,6 +14,9 @@ nav_order: 7
 - Supported department recruitment events, new student orientation, and social activities
 - Advocated for biology graduate students and foster community engagement in science education
 
+**Education Clinic - Science Communicator** 
+- 
+
 **Talent Manager - Enactus - Cairo University** - 2018, May -> 2018, August
 - Analyzed performance and engagement of volunteers, providing targeted feedback that improved multiple project completion rates
 - Developed volunteer assessment framework to identify strengths and growth areas

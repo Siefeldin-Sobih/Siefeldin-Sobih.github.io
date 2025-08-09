@@ -58,16 +58,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/references/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+        },{id: "news-got-hired-as-a-teaching-assistant-for-biol-3070-computational-approaches-to-biology-for-the-fall-2025-semester",
+          title: 'Got hired as a Teaching Assistant for BIOL 3070 - Computational Approaches to...',
           description: "",
           section: "News",},{
       id: 'light-theme',

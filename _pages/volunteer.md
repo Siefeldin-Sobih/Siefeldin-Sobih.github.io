@@ -14,7 +14,7 @@ nav_order: 7
 - Supported department recruitment events, new student orientation, and social activities
 - Advocated for biology graduate students and foster community engagement in science education
 
-**Education Clinic - Science Communicator** 
+**Education Clinic - Science Communicator** - Education Clinic Volunteer group - 2021
 - Translated complex biological and programming concepts into accessible articles for general audiences
 - Created engaging, jargon-free explanations for biology-related topics while maintaining scientific accuracy
 - Received a [certificate](https://drive.google.com/file/d/1f83ibTyxH8_th2ubqdJ65Gt6UQhJ85O-/view?usp=sharing) for my dedication and quality of work

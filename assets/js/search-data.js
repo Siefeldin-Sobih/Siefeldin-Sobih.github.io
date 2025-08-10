@@ -58,8 +58,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/references/";
           },
-        },{id: "news-got-hired-as-a-teaching-assistant-for-biol-3070-computational-approaches-to-biology-for-the-fall-2025-semester",
-          title: 'Got hired as a Teaching Assistant for BIOL 3070 - Computational Approaches to...',
+        },{id: "news-hired-as-a-teaching-assistant-for-biol-3070-computational-approaches-to-biology-for-the-fall-2025-semester",
+          title: 'Hired as a Teaching Assistant for BIOL 3070 - Computational Approaches to Biology...',
           description: "",
           section: "News",},{
       id: 'light-theme',

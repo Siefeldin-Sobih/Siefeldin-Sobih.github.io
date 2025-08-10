@@ -13,13 +13,13 @@ nav_order: 8
 - **Contact:** karen.kapheim@usu.edu
 
 ### Dr. Susannah French
-- **About:** [Susannah](https://frenchlab.weebly.com/people.html) is part of my committee and has been an integral part to my success. She really cares about making sure I understand the iguanas and physiology inside and out - she'll ask the tough questions that push me to think deeper, but always in a way that helps me grow as a researcher.
+- **About:** [Susannah](https://frenchlab.weebly.com/people.html) is a member of my committee and has been an integral part to my success. She really cares about making sure I understand the iguanas and physiology inside and out - she'll ask the tough questions that push me to think deeper, but always in a way that helps me grow as a researcher.
 - **Position:** Professor, Biology department, Utah State University
 - **Relationship:** Committee Member, Mentor
 - **Contact:** sfrench@biology.usu.edu
 
 ### Dr. Amita Kaundal
-- **About:** [Amita](https://qanr.usu.edu/directory/kaundal-amita) is one of my committee members. She brings such a fresh perspective to my committee with her plant-soil microbiome expertise and her insights have really strengthened my work.
+- **About:** [Amita](https://qanr.usu.edu/directory/kaundal-amita) is a member of my committee. She brings such a fresh perspective to my committee with her plant-soil microbiome expertise and her insights have really strengthened my work.
 - **Position:** Assistant Professor, Plants, Soils, and Climate department, Utah State University
 - **Relationship:** Committee member
 - **Contact:** amita.kaundal@usu.edu

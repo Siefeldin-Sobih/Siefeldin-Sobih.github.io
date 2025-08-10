@@ -8,13 +8,13 @@ nav_order: 5
 ---
 For Certificates click [Here](https://drive.google.com/drive/folders/1h0Kd9bKYtfLiGb4M3B7OC7jOcPwLtbiP?usp=sharing) 
 
-- The Power of Statistics (Google, Coursera) - January, 2025
+- The Power of Statistics (Google, Coursera) *- January, 2025*
 
-- Academic Writing Specialization (University of California, Irvine, Coursera)  - February, 2021 
+- Academic Writing Specialization (University of California, Irvine, Coursera)  *- February, 2021* 
 
-- Principles of Biochemistry (MCB63X, HarvardX, EdX) - February, 2021  
+- Principles of Biochemistry (MCB63X, HarvardX, EdX) *- February, 2021*  
 
-- Introduction to Genetics and Evolution (BIO202L, Duke University, Coursera) - May 25, 2020 
+- Introduction to Genetics and Evolution (BIO202L, Duke University, Coursera) *- May 25, 2020* 
 
-- Code In Place (CS106, Stanford University) - May, June 2020  
+- Code In Place (CS106, Stanford University) *- May, June 2020*  
   - [Project link](https://compedu.stanford.edu/codeinplace/public/projects/0263.html)

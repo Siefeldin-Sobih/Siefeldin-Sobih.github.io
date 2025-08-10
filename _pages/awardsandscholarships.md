@@ -10,13 +10,11 @@ For Certificates click [Here](https://drive.google.com/drive/folders/1h0Kd9bKYtf
 
 ## Scholarships
 
-- Joseph E. Greaves Endowed Biology Graduate Scholarship *– Utah State University – $3,000 – 2024*
+- Joseph E. Greaves Endowed Biology Graduate Scholarship *– Utah State University – 2024*
 
-- Student Innovation Undergraduate Graduation Project Support *– Supreme Council of Universities, Egypt – 40,000 Pounds  – 2020*
+- Student Innovation Undergraduate Graduation Project Support *– Department of IPIS, Cairo University – 2020*
 
-- Erasmus+ KA107 Exchange Scholarship *– University of Valladolid, Forestry Department – 2019*
-
-- Student Academic Excellence Funding *– Department of IPIS, Cairo University  – 2021*
+- Erasmus+ KA107 Student Exchange Scholarship *– University of Valladolid, Forestry Department – 2019*
 
 ## Awards and Recognition
 

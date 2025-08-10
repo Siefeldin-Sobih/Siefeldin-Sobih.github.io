@@ -8,7 +8,7 @@ nav_order: 7
 ---
 **Outreach Chair - Biology Graduate Student Association (BGSA)** *- Utah State University, Biology Department - 2025 -> Ongoing*
 - Served as liaison between BGSA, the biology department, and community organizations
-- Coordinated and facilitate science outreach events, particularly USU Science Unwrapped
+- Coordinated and facilitated science outreach events, particularly USU Science Unwrapped
   - Twice and counting: (Theme: Flower pollinations, 2023) and (Theme: The Evolution of birds, 2025)
 - Organized educational displays and materials to teach community members about biological concepts
 - Supported department recruitment events, new student orientation, and social activities

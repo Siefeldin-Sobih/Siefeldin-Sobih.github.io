@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Got hired as a Teaching Assistant for BIOL 3070 - Computational Approaches to Biology for the Fall 2025 Semester
+Hired as a Teaching Assistant for BIOL 3070 - Computational Approaches to Biology for the Fall 2025 Semester

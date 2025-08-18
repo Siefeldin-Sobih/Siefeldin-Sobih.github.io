@@ -14,14 +14,14 @@ nav_order: 8
 - **Number:** (435) 797-0685
 
 ### Dr. Susannah French
-- **About:** [Susannah](https://frenchlab.weebly.com/people.html) is a member of my committee and has been an integral part to my success. She really cares about making sure I understand the iguanas and physiology inside and out - she'll ask the tough questions that push me to think deeper, but always in a way that helps me grow as a researcher.
+- **About:** [Susannah](https://frenchlab.weebly.com/people.html) is a member of my committee and has been an integral part to my success. She really cares about making sure I understand the iguanas and physiology inside and out - she'll ask the tough questions that push me to think deeper, but always in a way that helps me grow as a researcher. Susannah has always been patient and friendly, and I have gained a lot of confidence about my research because of her support.
 - **Position:** Professor and Associate Dean of College of Science, Biology department, Utah State University
 - **Relationship:** Committee Member, Mentor
 - **Contact:** sfrench@biology.usu.edu
 - **Number:** (435) 797-9175
 
 ### Dr. John Stevens
-- **About:** [John](https://www.usu.edu/math/jrstevens/) has been my instructor for the bioinformatics course, and my first committee member. He has seen my work over the course of three consecutive years, offered me feedback and insights on how to think and approach my problems better.
+- **About:** [John](https://www.usu.edu/math/jrstevens/) was my instructor for the bioinformatics course, and my first committee member. Over the course of three consecutive years, he has seen my work progress and consistently provided valuable feedback and insights that sharpened how I approach statistical problems and how to present them. His guidance has been very essential in shaping my development as a researcher, and I deeply value the perspective he brought to my training.
 - **Position:** Department Head | Professor, Mathematics and Statistics department, Utah State University
 - **Relationship:** Committee Member, Mentor, Class Instructor
 - **Contact:** john.r.stevens@usu.edu

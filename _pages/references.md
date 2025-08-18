@@ -11,12 +11,28 @@ nav_order: 8
 - **Position:** Professor, Biology department, Utah State University
 - **Relationship:** PI, Mentor, Supervisor
 - **Contact:** karen.kapheim@usu.edu
+- **Number:** (435) 797-0685
 
 ### Dr. Susannah French
 - **About:** [Susannah](https://frenchlab.weebly.com/people.html) is a member of my committee and has been an integral part to my success. She really cares about making sure I understand the iguanas and physiology inside and out - she'll ask the tough questions that push me to think deeper, but always in a way that helps me grow as a researcher.
-- **Position:** Professor, Biology department, Utah State University
+- **Position:** Professor and Associate Dean of College of Science, Biology department, Utah State University
 - **Relationship:** Committee Member, Mentor
 - **Contact:** sfrench@biology.usu.edu
+- **Number:** (435) 797-9175
+
+### Dr. John Stevens
+- **About:** [John](https://www.usu.edu/math/jrstevens/) has been my instructor for the bioinformatics course, and my first committee member. He has seen my work over the course of three consecutive years, offered me feedback and insights on how to think and approach my problems better.
+- **Position:** Department Head | Professor, Mathematics and Statistics department, Utah State University
+- **Relationship:** Committee Member, Mentor, Class Instructor
+- **Contact:** john.r.stevens@usu.edu
+- **Number:** (435) 797-2810
+
+### Dr. Zachariah Gompert
+- **About:** [Zach](https://gompertlab.com/) is the instructor for the evolutionary biology course where I worked as a teaching assistant. He saw my work ethics and mindset. I enjoyed working with Zach and really happy that he is willing to be a reference point.
+- **Position:** Professor and Associate Department Head, Biology department, Utah State University
+- **Relationship:** Worked as a TA in his Evolutionary Biology Course.
+- **Contact:** zach.gompert@usu.edu
+- **Number:** (435) 797-9463
 
 ### Dr. Amita Kaundal
 - **About:** [Amita](https://qanr.usu.edu/directory/kaundal-amita) is a member of my committee. She brings such a fresh perspective to my committee with her plant-soil microbiome expertise and her insights have really strengthened my work.

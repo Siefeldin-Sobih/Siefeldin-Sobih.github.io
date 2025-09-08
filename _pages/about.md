@@ -21,26 +21,29 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 # Siefeldin Sobih
-Hi, I'm Saif! I'm passionate about wildlife conservation through the lens of data and discovery, exploring how the invisible world of bacterial communities influences animal behavior and survival to shape the conservation strategies we need to protect species.
 
-### Current Research
+Hi, you can call me Saif! I have spent most of my years researching and teaching about a variety of subjects that have given me a breadth of knowledge. I enjoy sharing knowledge, teaching others about exciting things, and mentoring motivated individuals so they can succeed.
 
-My master's focuses is on the endangered rock iguanas across the Bahamas, investigating how both anthropogenic impacts from varying tourism rates, which impacts what Iguanas eat, and reproductive seasonal changes, and how both affect different subspecies and sexes. This is done by examining how these factors influence microbiome composition and overall physiological health. The insights that are reveled from this research will offer insights on how to better conserve these iguanas.
+Through my years as a researcher I have gained skills in molecular techniques and statistical modeling. I am currently working on projects that are developing my understanding and practical knowledge of machine learning techniques and theories.
 
-### My Methodology
+I enjoy learning, in particular through research and answering questions that help us understand our surroundings. Fields like genetics, wildlife biology, and computational biology have been especially exciting for me.
 
-I work at the intersection of computational biology and field research, using statistical modeling and machine learning to transform complex datasets into actionable conservation insights. There's something truly exciting about discovering patterns in data that can make a real difference for wildlife in their natural habitats.
+### My Master's thesis
 
-I have been growing and experiencing with the following programming languages: R, Python, Bash, Nextflow.
+My master's research focuses on the endangered rock iguanas across the Bahamas. We investigated how the microbiome interplays with anthropogenic factors like tourism-offered food, as well as physiological changes across seasons. Our study is novel on rock iguanas and offers unprecedented insights that will help in the conservation of these endangered species.
+
+### My Work
+
+I work at the intersection of computational biology and field research, using statistical modeling and machine learning to transform complex datasets into actionable insights. I have been building experience with the following programming languages: R, Python, Bash, and Nextflow.
 
 ### Teaching & Outreach
 
-As Outreach Officer and Teaching Assistant in Utah State University's Biology Department, I spend a considerable amount of time sharing the excitement of science with students and community members of science unwrapped of all ages. Building science literacy and helping people connect with research is just as rewarding, as conducting the research itself, if not much more.
+As Outreach Officer and Teaching Assistant in Utah State University's Biology Department, I spend a considerable amount of time sharing the excitement of science with students and community members of all ages. Building science literacy and helping people connect with research is just as rewarding as conducting the research itself.
 
 ### What Drives Me
 
-Impact is at the heart of everything I do, I want to leave this world with the most positive long-lasting impact on those who will come after us, whether it may be research that I have done, software I helped develop, insights I shared about wildlife, or students that I have taught.
+Impact is at the heart of everything I do, I want to leave this world with the most positive long-lasting impact on those who will come after us, whether it may be research that I have done, software I helped develop, insights I shared about science, or students that I have taught.
 
-While I appreciate routine tasks from time to time, at work I prefer challenging new tasks that challenge me to grow! Whether I'm analyzing a new dataset, mentoring a student to success, or anything else, I want every project to push my limits.
+While I appreciate routine tasks, I also prefer challenging new tasks that challenge me to grow! Whether I'm analyzing a new dataset, mentoring a student to success, or anything else, I want every project to push my limits.
 
-Thanks for taking the time to explore my work. I hope you enjoy getting to know the research and passion behind it! Don'te hesitate to email me with any questions you have or any opportunities.
+Thanks for taking the time to get to know me. I hope you enjoyed getting to know the research and passion behind it! Don't hesitate to email me with any questions you have or any opportunities.

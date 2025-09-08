@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-resume",
-          title: "Resume",
-          description: "This resume only includes work and educational background as the rest are placed in separate tabs on the website.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/resume/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "Publications",
           description: "Publications by categories in reversed chronological order.",
           section: "Navigation",

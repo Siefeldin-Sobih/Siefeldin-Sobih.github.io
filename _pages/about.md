@@ -20,6 +20,8 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
+# I'm reworking my site design. I'll be right back!
+
 # Siefeldin Sobih
 
 Hi, you can call me Saif! I have spent most of my years researching and teaching about a variety of subjects that have given me a breadth of knowledge. I enjoy sharing knowledge, teaching others about exciting things, and mentoring motivated individuals so they can succeed.

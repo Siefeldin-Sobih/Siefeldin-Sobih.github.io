@@ -1,0 +1,91 @@
+{
+  "name": "Siefeldin Sobih",
+  "shortName": "Saif",
+  "initials": "SS",
+  "role": "Researcher. Educator. Builder.",
+  "intro": "Hi, you can call me Saif. I work across biology, data, and code, and enjoy helping people make sense of all three.",
+  "bio": "My background spans molecular biology, statistical modeling, and science education. I’m drawn to questions that connect living systems with computational tools—and to sharing what I learn along the way.",
+  "email": "siefeldinsobih@gmail.com",
+  "location": "Logan, Utah",
+  "photo": "",
+  "photoAlt": "Portrait of Siefeldin Sobih",
+  "banner": {
+    "enabled": true,
+    "text": "November 2026: I’m updating this website to reflect my new positions and projects.",
+    "url": ""
+  },
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Siefeldin-Sobih"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/siefeldin-sobih-494541378/"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0009-3947-8996"
+    }
+  ],
+  "home": {
+    "teaching": {
+      "heading": "Teaching & mentoring",
+      "title": "Making biology approachable.",
+      "description": "From computational biology to microbiology labs, I enjoy turning difficult concepts into something students can explore and use.",
+      "image": "assets/teaching.svg",
+      "imageAlt": "Geometric teaching board illustration with a scatter plot",
+      "url": "teaching/"
+    },
+    "research": {
+      "heading": "Currently working on",
+      "title": "Biology, through a computational lens.",
+      "description": "My research background connects microbiomes, physiology, and conservation. Alongside it, I’m building my skills in machine learning and reproducible analysis.",
+      "image": "assets/research.svg",
+      "imageAlt": "Diagram connecting biological samples, analysis, and interpretation",
+      "url": "work/#rock-iguanas"
+    }
+  },
+  "cvPdf": "assets/files/cv.pdf",
+  "certificatesUrl": "https://drive.google.com/drive/folders/1h0Kd9bKYtfLiGb4M3B7OC7jOcPwLtbiP?usp=sharing",
+  "skills": [
+    "R",
+    "Python",
+    "Bash",
+    "Nextflow",
+    "Statistical modeling",
+    "Microbiome analysis"
+  ],
+  "teaching": [
+    {
+      "course": "Computational Approaches to Biology",
+      "code": "BIOL 3070",
+      "institution": "Utah State University",
+      "date": "Fall 2025",
+      "description": "Teaching assistant. Supporting students as they develop computational approaches to biological questions."
+    },
+    {
+      "course": "General Microbiology",
+      "code": "BIOL 3300",
+      "institution": "Utah State University",
+      "date": "Teaching experience",
+      "description": "Leading laboratory sessions, preparing presentations, and helping students connect experiments with biological concepts."
+    },
+    {
+      "course": "Evolutionary Biology",
+      "code": "BIOL 3020",
+      "institution": "Utah State University",
+      "date": "Teaching experience",
+      "description": "Mentoring students, grading assignments, and delivering a guest lecture."
+    },
+    {
+      "course": "Bioinformatics & genetics",
+      "code": "BT204 · BT308 · GEN202",
+      "institution": "October University for Modern Sciences & Arts",
+      "date": "2023",
+      "description": "Teaching laboratory sessions in bioinformatics, advanced genetics, and microbial genetics."
+    }
+  ],
+  "outreach": "Through the Biology Graduate Student Association at Utah State University, I’ve helped coordinate science outreach, including Science Unwrapped. Making research accessible to people outside the lab is part of why I teach.",
+  "footer": "A place for the things I learn, teach, and build."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "saif-personal-website-draft",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "liquidjs": "10.21.1",
+    "marked": "17.0.5",
+    "yaml": "2.8.1"
+  }
+}

@@ -1,0 +1,28 @@
+<header class="page-heading"><p class="eyebrow">Professional connections</p><h1>References.</h1><p>{{ site.data.reference_settings.intro | escape }}</p></header>
+{% if site.data.references.size > 0 %}
+<div class="references-grid" aria-label="Professional references">
+{% for reference in site.data.references %}
+<article class="card reference-card">
+  <div class="reference-heading">
+    {% if reference.photo and reference.photo != '' %}<img class="reference-avatar" src="{{ reference.photo | relative_url }}" alt="Portrait of {{ reference.name | escape }}" width="84" height="84">
+    {% else %}<span class="reference-avatar reference-avatar-placeholder" aria-hidden="true">{{ reference.name | slice: 0, 1 | upcase | escape }}</span>{% endif %}
+    <div class="reference-identity"><h2>{{ reference.name | escape }}</h2>{% if reference.role and reference.role != '' %}<p>{{ reference.role | escape }}</p>{% endif %}</div>
+  </div>
+  {% assign has_department = false %}{% assign has_institution = false %}{% assign has_contacts = false %}
+  {% if reference.department and reference.department != '' %}{% assign has_department = true %}{% endif %}{% if reference.institution and reference.institution != '' %}{% assign has_institution = true %}{% endif %}
+  {% if reference.email and reference.email != '' %}{% assign has_contacts = true %}{% endif %}{% if reference.phone and reference.phone != '' %}{% assign has_contacts = true %}{% endif %}
+  {% if has_department or has_institution %}<div class="reference-affiliation"><span>Department & institution</span><p>{% if has_department %}{{ reference.department | escape }}{% endif %}{% if has_department and has_institution %}<br>{% endif %}{% if has_institution %}{{ reference.institution | escape }}{% endif %}</p></div>{% endif %}
+  {% if has_contacts %}<dl class="reference-contacts">
+    {% if reference.email and reference.email != '' %}<div><dt>Email</dt><dd><a href="mailto:{{ reference.email | escape }}">{{ reference.email | escape }} <span aria-hidden="true">↗</span></a></dd></div>{% endif %}
+    {% if reference.phone and reference.phone != '' %}<div><dt>Phone</dt><dd><a href="tel:{{ reference.phone | remove: ' ' | remove: '(' | remove: ')' | escape }}">{{ reference.phone | escape }}</a></dd></div>{% endif %}
+  </dl>{% endif %}
+</article>{% endfor %}</div>
+{% elsif site.data.reference_settings.showExample %}
+<div class="references-grid" aria-label="Example reference card"><article class="card reference-card example-reference">
+<div class="reference-example-label"><span class="example-label">Example card</span></div>
+<div class="reference-heading"><span class="reference-avatar reference-avatar-placeholder" aria-hidden="true">R</span><div class="reference-identity"><h2>Reference name</h2><p>Title or role</p></div></div>
+<div class="reference-affiliation"><span>Department & institution</span><p>Department name<br>Institution or organization</p></div>
+<dl class="reference-contacts"><div><dt>Email</dt><dd>Add an email address</dd></div><div><dt>Phone</dt><dd>Add a phone number</dd></div></dl>
+</article></div>
+{% else %}<div class="card reference-empty"><h2>References are available upon request.</h2><p>Feel free to reach out for details.</p><a class="button" href="mailto:{{ site.data.personal.email | escape }}">Get in touch <span aria-hidden="true">↗</span></a></div>{% endif %}
+

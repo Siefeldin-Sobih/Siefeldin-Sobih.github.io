@@ -1,0 +1,6 @@
+<article class="blog-post">
+<a class="text-link blog-back" href="{{ 'blog/' | relative_url }}"><span aria-hidden="true">←</span> All posts</a>
+<header class="post-header"><div class="item-meta"><span>{{ page.category | default: 'Notes' | escape }}</span>{% if page.example %}<span class="example-label">Example post</span>{% else %}<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %d, %Y' }}</time>{% endif %}</div><h1>{{ page.title | escape }}</h1><p>{{ page.description | escape }}</p></header>
+{% if page.example %}<aside class="example-note">Layout example · This is placeholder writing, ready to be replaced with your own post.</aside>{% endif %}
+<div class="post-body">{{ content }}</div>
+<footer class="post-footer"><a class="button" href="{{ 'blog/' | relative_url }}">Back to the blog <span aria-hidden="true">↗</span></a></footer></article>

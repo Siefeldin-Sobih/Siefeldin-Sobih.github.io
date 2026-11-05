@@ -1,0 +1,675 @@
+{
+  "media": {
+    "input": "assets/uploads",
+    "output": "/assets/uploads",
+    "categories": [
+      "image",
+      "document"
+    ]
+  },
+  "content": [
+    {
+      "name": "personal",
+      "label": "Homepage & settings",
+      "type": "file",
+      "path": "_data/personal.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "shortName",
+          "type": "string"
+        },
+        {
+          "name": "initials",
+          "type": "string"
+        },
+        {
+          "name": "role",
+          "type": "string"
+        },
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "location",
+          "type": "string"
+        },
+        {
+          "name": "intro",
+          "type": "text"
+        },
+        {
+          "name": "bio",
+          "type": "text"
+        },
+        {
+          "name": "photo",
+          "type": "image"
+        },
+        {
+          "name": "photoAlt",
+          "type": "string"
+        },
+        {
+          "name": "cvPdf",
+          "type": "file"
+        },
+        {
+          "name": "banner",
+          "type": "object",
+          "fields": [
+            {
+              "name": "enabled",
+              "type": "boolean"
+            },
+            {
+              "name": "text",
+              "type": "string"
+            },
+            {
+              "name": "url",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "name": "home",
+          "type": "object",
+          "fields": [
+            {
+              "name": "teaching",
+              "type": "object",
+              "fields": [
+                {
+                  "name": "heading",
+                  "type": "string"
+                },
+                {
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "name": "description",
+                  "type": "text"
+                },
+                {
+                  "name": "image",
+                  "type": "image"
+                },
+                {
+                  "name": "imageAlt",
+                  "type": "string"
+                },
+                {
+                  "name": "url",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "name": "research",
+              "type": "object",
+              "fields": [
+                {
+                  "name": "heading",
+                  "type": "string"
+                },
+                {
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "name": "description",
+                  "type": "text"
+                },
+                {
+                  "name": "image",
+                  "type": "image"
+                },
+                {
+                  "name": "imageAlt",
+                  "type": "string"
+                },
+                {
+                  "name": "url",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "links",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "label",
+              "type": "string"
+            },
+            {
+              "name": "url",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "name": "skills",
+          "type": "string",
+          "list": true
+        },
+        {
+          "name": "teaching",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "course",
+              "type": "string"
+            },
+            {
+              "name": "code",
+              "type": "string"
+            },
+            {
+              "name": "institution",
+              "type": "string"
+            },
+            {
+              "name": "date",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "outreach",
+          "type": "text"
+        },
+        {
+          "name": "footer",
+          "type": "string"
+        },
+        {
+          "name": "certificatesUrl",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "updates",
+      "label": "Recent updates",
+      "type": "file",
+      "path": "_data/updates.json",
+      "format": "json",
+      "list": true,
+      "fields": [
+        {
+          "name": "date",
+          "type": "string"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "text",
+          "type": "text"
+        },
+        {
+          "name": "url",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "work",
+      "label": "Projects & hackathons",
+      "type": "file",
+      "path": "_data/work.json",
+      "format": "json",
+      "list": true,
+      "fields": [
+        {
+          "name": "id",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "type",
+          "type": "select",
+          "options": {
+            "values": [
+              "Project",
+              "Research",
+              "Hackathon",
+              "Dataset"
+            ]
+          }
+        },
+        {
+          "name": "year",
+          "type": "string"
+        },
+        {
+          "name": "summary",
+          "type": "text"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "tags",
+          "type": "string",
+          "list": true
+        },
+        {
+          "name": "art",
+          "type": "select",
+          "options": {
+            "values": [
+              "forge",
+              "microbiome",
+              "matrix",
+              "lucid"
+            ]
+          }
+        },
+        {
+          "name": "url",
+          "type": "string"
+        },
+        {
+          "name": "linkLabel",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "achievements",
+      "label": "Achievements",
+      "type": "file",
+      "path": "_data/achievements.json",
+      "format": "json",
+      "list": true,
+      "fields": [
+        {
+          "name": "id",
+          "type": "string"
+        },
+        {
+          "name": "category",
+          "type": "string"
+        },
+        {
+          "name": "year",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "organization",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "cv",
+      "label": "CV — structured data",
+      "type": "file",
+      "path": "_data/cv.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "basics",
+          "type": "object",
+          "fields": [
+            {
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "name": "email",
+              "type": "string"
+            },
+            {
+              "name": "location",
+              "type": "object",
+              "fields": [
+                {
+                  "name": "city",
+                  "type": "string"
+                },
+                {
+                  "name": "region",
+                  "type": "string"
+                },
+                {
+                  "name": "countryCode",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "work",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "name": "position",
+              "type": "string"
+            },
+            {
+              "name": "category",
+              "label": "Experience category",
+              "type": "select",
+              "options": {
+                "values": [
+                  "teaching",
+                  "research",
+                  "other"
+                ]
+              }
+            },
+            {
+              "name": "startDate",
+              "type": "string"
+            },
+            {
+              "name": "endDate",
+              "type": "string"
+            },
+            {
+              "name": "highlights",
+              "type": "string",
+              "list": true
+            }
+          ]
+        },
+        {
+          "name": "education",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "institution",
+              "type": "string"
+            },
+            {
+              "name": "location",
+              "type": "string"
+            },
+            {
+              "name": "area",
+              "type": "string"
+            },
+            {
+              "name": "studyType",
+              "type": "string"
+            },
+            {
+              "name": "startDate",
+              "type": "string"
+            },
+            {
+              "name": "endDate",
+              "type": "string"
+            },
+            {
+              "name": "score",
+              "type": "string"
+            },
+            {
+              "name": "summary",
+              "type": "text"
+            },
+            {
+              "name": "courses",
+              "type": "string",
+              "list": true
+            }
+          ]
+        },
+        {
+          "name": "publications",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "name": "publisher",
+              "type": "string"
+            },
+            {
+              "name": "releaseDate",
+              "type": "string"
+            },
+            {
+              "name": "url",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blog",
+      "label": "Blog introduction",
+      "type": "file",
+      "path": "_data/blog.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "eyebrow",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "intro",
+          "label": "Introduction above post cards",
+          "type": "text"
+        },
+        {
+          "name": "showExamples",
+          "label": "Show example posts in review draft",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "posts",
+      "label": "Blog posts",
+      "type": "collection",
+      "path": "_posts",
+      "format": "yaml-frontmatter",
+      "filename": "{year}-{month}-{day}-{primary}.md",
+      "view": {
+        "primary": "title",
+        "sort": "date",
+        "order": "desc"
+      },
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "Short summary for the card",
+          "type": "text"
+        },
+        {
+          "name": "category",
+          "label": "Topic",
+          "type": "string"
+        },
+        {
+          "name": "published",
+          "label": "Publish this post",
+          "type": "boolean"
+        },
+        {
+          "name": "example",
+          "label": "This is a layout example",
+          "type": "boolean"
+        },
+        {
+          "name": "body",
+          "type": "rich-text"
+        }
+      ]
+    },
+    {
+      "name": "references",
+      "label": "References",
+      "type": "file",
+      "path": "_data/references.json",
+      "format": "json",
+      "list": true,
+      "fields": [
+        {
+          "name": "name",
+          "label": "Full name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "role",
+          "label": "Title or role",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "department",
+          "label": "Department",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "institution",
+          "label": "Institution or organization",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "photo",
+          "label": "Photo (optional)",
+          "type": "image",
+          "required": false
+        },
+        {
+          "name": "phone",
+          "label": "Phone number (optional)",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "email",
+          "label": "Email address (optional)",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "references_settings",
+      "label": "References page settings",
+      "type": "file",
+      "path": "_data/reference_settings.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "intro",
+          "label": "Introduction",
+          "type": "text"
+        },
+        {
+          "name": "showExample",
+          "label": "Show example card when no references exist",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "publications",
+      "label": "Publications",
+      "type": "file",
+      "path": "_data/publications.json",
+      "format": "json",
+      "list": true,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "select",
+          "options": {
+            "values": [
+              "in-progress",
+              "published"
+            ]
+          },
+          "required": true
+        },
+        {
+          "name": "date",
+          "label": "Publication or manuscript date (YYYY-MM-DD; optional)",
+          "type": "string"
+        },
+        {
+          "name": "authors",
+          "type": "string"
+        },
+        {
+          "name": "venue",
+          "label": "Journal or venue",
+          "type": "string"
+        },
+        {
+          "name": "summary",
+          "type": "text"
+        },
+        {
+          "name": "url",
+          "label": "DOI, article or preprint URL",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

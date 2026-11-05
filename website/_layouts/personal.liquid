@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | escape }} · {{ site.data.personal.name | escape }}</title>
+<meta name="description" content="{{ page.description | escape }}">
+<meta name="theme-color" content="#f1f2ef">
+<link rel="icon" href="{{ 'assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ 'assets/theme.css' | relative_url }}">
+<link rel="stylesheet" href="{{ 'assets/experience.css' | relative_url }}">
+<link rel="stylesheet" href="{{ 'assets/blog.css' | relative_url }}">
+<link rel="stylesheet" href="{{ 'assets/references.css' | relative_url }}">
+<script defer src="{{ 'assets/site.js' | relative_url }}"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="site-wrap">
+<header class="site-header">
+<a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.data.personal.name | escape }} — Home"><span class="brand-mark">s.</span><span>{{ site.data.personal.name | escape }}</span></a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+<nav id="navigation" aria-label="Main navigation">
+<a href="{{ '/' | relative_url }}" {% if page.section == 'home' %}aria-current="page"{% endif %}>Home</a>
+<a href="{{ 'work/' | relative_url }}" {% if page.section == 'work' %}aria-current="page"{% endif %}>Projects</a>
+<a href="{{ 'cv/' | relative_url }}" {% if page.section == 'cv' %}aria-current="page"{% endif %}>CV</a>
+<a href="{{ 'publications/' | relative_url }}" {% if page.section == 'publications' %}aria-current="page"{% endif %}>Publications</a>
+<a href="{{ 'achievements/' | relative_url }}" {% if page.section == 'achievements' %}aria-current="page"{% endif %}>Achievements</a>
+<a href="{{ 'references/' | relative_url }}" {% if page.section == 'references' %}aria-current="page"{% endif %}>References</a>
+<a href="{{ 'blog/' | relative_url }}" {% if page.section == 'blog' or page.section == 'blog_post' %}aria-current="page"{% endif %}>Blog</a>
+<a class="nav-contact" href="mailto:{{ site.data.personal.email | escape }}">Get in touch <span aria-hidden="true">↗</span></a>
+</nav></header>
+{% if site.data.personal.banner.enabled %}<aside class="announcement">{% if site.data.personal.banner.url != '' %}<a href="{{ site.data.personal.banner.url | relative_url }}">{{ site.data.personal.banner.text | escape }} ↗</a>{% else %}{{ site.data.personal.banner.text | escape }}{% endif %}</aside>{% endif %}
+<main id="main">
+{% if page.section == 'home' %}{% include personal/home.liquid %}
+{% elsif page.section == 'work' %}{% include personal/work.liquid %}
+{% elsif page.section == 'cv' %}{% include personal/cv.liquid %}
+{% elsif page.section == 'achievements' %}{% include personal/achievements.liquid %}
+{% elsif page.section == 'teaching' %}{% include personal/teaching.liquid %}
+{% elsif page.section == 'updates' %}{% include personal/updates.liquid %}
+{% elsif page.section == 'blog' %}{% include personal/blog.liquid %}
+{% elsif page.section == 'blog_post' %}{% include personal/blog-post.liquid %}
+{% elsif page.section == 'publications' %}{% include personal/publications.liquid %}
+{% elsif page.section == 'references' %}{% include personal/references.liquid %}
+{% else %}<section class="page-heading"><p class="eyebrow">404</p><h1>A small detour.</h1><p>This page isn’t here. Let’s head back.</p><a class="button" href="{{ '/' | relative_url }}">Back home ↗</a></section>{% endif %}
+</main>
+<footer class="site-footer"><div><a class="footer-name" href="{{ '/' | relative_url }}">{{ site.data.personal.name | escape }}</a><p>{{ site.data.personal.footer | escape }}</p></div><div class="footer-links">{% for link in site.data.personal.links %}<a href="{{ link.url | escape }}" target="_blank" rel="noopener noreferrer">{{ link.label | escape }} ↗</a>{% endfor %}<a href="mailto:{{ site.data.personal.email | escape }}">Email ↗</a></div></footer>
+</div></body></html>

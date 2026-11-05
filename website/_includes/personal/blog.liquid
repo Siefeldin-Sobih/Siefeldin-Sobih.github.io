@@ -1,0 +1,8 @@
+<header class="page-heading blog-heading"><p class="eyebrow">{{ site.data.blog.eyebrow | escape }}</p><h1>{{ site.data.blog.title | escape }}</h1><p class="blog-intro">{{ site.data.blog.intro | escape }}</p></header>
+<section class="blog-section" aria-labelledby="posts-title"><div class="section-heading blog-section-heading"><h2 id="posts-title">From the notebook</h2></div><div class="blog-grid">
+{% assign shown_posts = 0 %}
+{% for post in site.posts %}{% assign show_post = true %}{% if post.example and site.data.blog.showExamples == false %}{% assign show_post = false %}{% endif %}{% if show_post %}
+{% assign shown_posts = shown_posts | plus: 1 %}
+<article class="card blog-card"><div class="item-meta"><span>{{ post.category | default: 'Notes' | escape }}</span>{% if post.example %}<span class="example-label">Example post</span>{% else %}<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%B %d, %Y' }}</time>{% endif %}</div><h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2><p>{{ post.description | escape }}</p><a class="text-link" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title | escape }}">Read post <span aria-hidden="true">↗</span></a></article>
+{% endif %}{% endfor %}</div>
+{% if shown_posts == 0 %}<div class="card blog-empty"><h2>A little space for what comes next.</h2><p>New writing will appear here.</p></div>{% endif %}</section>

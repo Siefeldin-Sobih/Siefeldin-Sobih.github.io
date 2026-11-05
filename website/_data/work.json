@@ -1,0 +1,64 @@
+[
+  {
+    "id": "vnforge",
+    "title": "VNForge",
+    "type": "Hackathon",
+    "year": "2026",
+    "summary": "A desktop workspace that turns story scenes into validated, playable visual-novel projects.",
+    "description": "Built with a team for the IBM AI Builders Challenge in July 2026. I led the team and developed core files, implemented features, fixed reported defects, and integrated interface improvements. A local compiler generates Ren’Py from a validated scene plan.",
+    "tags": [
+      "Python",
+      "Generative AI",
+      "Ren’Py"
+    ],
+    "art": "forge",
+    "url": "https://github.com/Siefeldin-Sobih/VNForge",
+    "linkLabel": "View repository"
+  },
+  {
+    "id": "rock-iguanas",
+    "title": "Rock iguana microbiomes",
+    "type": "Research",
+    "year": "Master’s research",
+    "summary": "Studying how seasonality and human activity relate to the microbiome and physiology of endangered Bahamian rock iguanas.",
+    "description": "My master’s work combined hindgut microbiome analysis with physiological metadata. The analysis used QIIME2, statistical modeling, and reproducible workflows in Nextflow and Bash to explore conservation questions.",
+    "tags": [
+      "Microbiomes",
+      "R",
+      "Nextflow"
+    ],
+    "art": "microbiome",
+    "url": "",
+    "linkLabel": ""
+  },
+  {
+    "id": "pam250",
+    "title": "PAM250 matrix match",
+    "type": "Project",
+    "year": "Research tool",
+    "summary": "A small Python tool that scores aligned amino-acid pairs using the PAM250 substitution matrix.",
+    "description": "Created to replace a repetitive research task for me and my colleagues: looking up substitution scores for aligned amino acids. A focused script for a practical problem.",
+    "tags": [
+      "Python",
+      "Bioinformatics"
+    ],
+    "art": "matrix",
+    "url": "https://github.com/Siefeldin-Sobih/PAM250-matrix-match",
+    "linkLabel": "View repository"
+  },
+  {
+    "id": "lucid",
+    "title": "Lucid competition",
+    "type": "Hackathon",
+    "year": "Team project",
+    "summary": "Our team’s contribution to Utah State University’s Lucid competition.",
+    "description": "The repository contains our team’s competition contribution. Further context and my specific contribution can be added as the project write-up develops.",
+    "tags": [
+      "Teamwork",
+      "Competition"
+    ],
+    "art": "lucid",
+    "url": "https://github.com/Siefeldin-Sobih/lucid_compeititon_randombagles",
+    "linkLabel": "View repository"
+  }
+]

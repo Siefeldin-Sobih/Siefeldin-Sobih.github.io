@@ -1,0 +1,51 @@
+[
+  {
+    "id": "teaching-certificate",
+    "category": "Teaching",
+    "year": "2025",
+    "title": "Explore Graduate Teaching Certificate",
+    "organization": "Utah State University · Center for Empowering Teaching Excellence"
+  },
+  {
+    "id": "greaves",
+    "category": "Scholarship",
+    "year": "2024",
+    "title": "Joseph E. Greaves Endowed Biology Graduate Scholarship",
+    "organization": "Utah State University"
+  },
+  {
+    "id": "article",
+    "category": "Recognition",
+    "year": "2022",
+    "title": "Best Scientific Article in Biology",
+    "organization": "Zewail City Open Courseware"
+  },
+  {
+    "id": "graduation",
+    "category": "Recognition",
+    "year": "2021",
+    "title": "Recognition for presentation and graduation project design",
+    "organization": "Faculty of Agriculture, Cairo University"
+  },
+  {
+    "id": "innovation",
+    "category": "Scholarship",
+    "year": "2020",
+    "title": "Student Innovation Undergraduate Graduation Project Support",
+    "organization": "Department of IPIS, Cairo University"
+  },
+  {
+    "id": "erasmus",
+    "category": "Scholarship",
+    "year": "2019",
+    "title": "Erasmus+ KA107 Student Exchange Scholarship",
+    "organization": "University of Valladolid · Forestry Department"
+  },
+  {
+    "id": "presenter",
+    "category": "Recognition",
+    "year": "2019",
+    "title": "Best Presenter · Environmental Ecology",
+    "organization": "Faculty of Agriculture, Cairo University"
+  }
+]

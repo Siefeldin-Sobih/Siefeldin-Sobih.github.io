@@ -26,14 +26,18 @@
 .site-header nav{flex-wrap:wrap;gap:12px 20px;justify-content:flex-end}
 @media(max-width:600px){.publication-card{padding:23px}.site-header nav{justify-content:flex-start}}
 
-/* Text fills the cards when no meaningful image is supplied. */
-.identity-card.identity-text-only{display:block;padding:36px;min-height:0}
-.identity-text-only .identity-copy{padding:0}
-.identity-text-only .intro{max-width:640px;font-size:16px}
-.identity-text-only .identity-copy h1{max-width:none}
-.current-card.current-text-only{display:flex;flex-direction:column;padding:30px;min-height:0}
-.current-text-only .current-copy{padding:0;flex:1}
-.current-text-only .current-copy>p:not(.eyebrow){font-size:15px}
-.current-text-only .current-copy h2{max-width:none}
+/* Keep the approved image-and-copy composition at every screen size. */
+.identity-art{isolation:isolate;min-height:380px;background:#263b4e}
+.identity-art .monogram{margin:0;font-size:190px;align-self:center}
+.identity-art .art-bottom{font-size:12px;line-height:1.8}
+.identity-copy h1{font-size:clamp(36px,3.4vw,49px)}
+.identity-copy .intro{font-size:14px;line-height:1.8}
+.current-card{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);align-items:stretch}
+.current-card>img{object-fit:cover}
+.current-copy h2{font-size:27px}
 .teaching-feature.teaching-text-only{display:block}
-@media(max-width:600px){.identity-card.identity-text-only,.current-card.current-text-only{padding:25px}}
+@media(max-width:850px){.current-card{display:flex;flex-direction:column}.current-card>img{height:auto;aspect-ratio:1.5;object-fit:cover}.identity-art{min-height:350px}}
+@media(max-width:600px){.identity-art{height:190px;min-height:190px}.identity-art .monogram{font-size:160px;left:25px;top:5px}.identity-art .art-coordinate{max-width:170px;font-size:9px}.identity-art .art-bottom{font-size:11px}.identity-copy h1{font-size:44px}.current-copy h2{font-size:27px}}
+.current-copy{min-width:0;max-width:100%}
+.current-copy>h2,.current-copy>p{max-width:100%;overflow-wrap:break-word}
+@media(max-width:850px){.current-card>img{height:240px;min-height:0;aspect-ratio:auto;object-fit:contain;background:#596951}.current-card>img[src*="shared-maps"]{background:#2c4151}}

@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import { Liquid } from 'liquidjs';
 import { marked } from 'marked';
 import { parse as parseYaml } from 'yaml';
@@ -9,10 +10,15 @@ const out = path.join(root, 'dist');
 const base = (process.env.SITE_BASE || '').replace(/\/$/, '');
 if (base && (!base.startsWith('/') || base.includes('..'))) throw new Error('SITE_BASE must be a clean URL path');
 const engine = new Liquid({ root: path.join(root, '_includes'), extname: '.liquid', jekyllInclude: true, strictFilters: true });
+const assetVersions = new Map();
+for (const name of ['theme.css','experience.css','blog.css','references.css','site.js']) {
+  assetVersions.set('assets/' + name, createHash('sha256').update(await readFile(path.join(root,'assets',name))).digest('hex').slice(0,12));
+}
 function relativeUrl(value) {
   const text = String(value);
   if (/^(https?:|mailto:|#)/.test(text)) return text;
-  return base + '/' + text.replace(/^\//, '');
+  const clean = text.replace(/^\//, '');
+  return base + '/' + clean + (assetVersions.has(clean) ? '?v=' + assetVersions.get(clean) : '');
 }
 engine.registerFilter('relative_url', relativeUrl);
 function frontmatter(source, filename) {

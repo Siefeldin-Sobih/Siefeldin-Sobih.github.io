@@ -1,0 +1,28 @@
+.references-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.reference-card{padding:28px;min-width:0;display:flex;flex-direction:column}
+.reference-heading{display:flex;align-items:center;gap:18px;padding-bottom:26px;border-bottom:1px solid var(--border)}
+.reference-avatar{width:76px;height:76px;flex:0 0 76px;object-fit:cover;border-radius:13px;background:var(--soft)}
+.reference-avatar-placeholder{display:flex;align-items:center;justify-content:center;background:#e3e9e5;color:var(--blue);font:34px var(--heading-font)}
+.reference-identity{min-width:0}
+.reference-identity h2{font-size:26px;line-height:1.2;overflow-wrap:anywhere}
+.reference-identity p{font-size:13px;margin-top:7px}
+.reference-affiliation{padding:22px 0 18px;border-bottom:1px solid var(--border)}
+.reference-affiliation>span,.reference-contacts dt{display:block;color:var(--blue);text-transform:uppercase;letter-spacing:.09em;font-size:10px;font-weight:600}
+.reference-affiliation p{font-size:14px;line-height:1.65;margin-top:8px}
+.reference-contacts{margin:0;padding-top:20px;display:grid;gap:18px}
+.reference-contacts div{min-width:0}.reference-contacts dd{margin:6px 0 0;color:var(--muted);font-size:13px;overflow-wrap:anywhere}
+.reference-contacts dd a{color:var(--ink)}.reference-contacts dd a:hover{text-decoration:underline;text-underline-offset:4px}
+.reference-example-label{display:flex;justify-content:flex-end;margin-bottom:15px}
+.reference-empty{padding:35px}.reference-empty h2{font-size:28px}.reference-empty p{margin:14px 0 20px}
+@media(max-width:1000px){.references-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.site-header nav .nav-contact{display:none}}
+@media(max-width:760px){
+.site-header{flex-wrap:wrap}
+.menu-toggle{display:flex;align-items:center;gap:10px;border:1px solid var(--border);border-radius:25px;padding:7px 13px;background:var(--surface);font-size:12px}
+.site-header nav{display:none;width:100%;gap:8px;flex-wrap:wrap;padding:10px 0 0}
+.site-header nav.open{display:flex}
+.site-header nav a{padding:9px 13px}
+.site-header nav a[aria-current]{background:var(--soft);border-radius:8px;box-shadow:none}
+.site-header nav .nav-contact{display:inline-block;margin-left:0}
+}
+@media(max-width:600px){.references-grid{grid-template-columns:1fr;gap:16px}.reference-card{padding:24px}.reference-identity h2{font-size:25px}.reference-avatar{width:68px;height:68px;flex-basis:68px}.reference-empty{padding:27px}}
+

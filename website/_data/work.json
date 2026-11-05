@@ -1,5 +1,21 @@
 [
   {
+    "id": "swarm-robotics",
+    "title": "Swarm robotics: VLMs and SLAM",
+    "type": "Research",
+    "year": "2026–present",
+    "summary": "Integrating vision-language models into SLAM algorithms and robot-to-robot communication.",
+    "description": "In Kevin Moon’s lab at Utah State University, I’m working on how robots share and interpret observations without a central controller. I’m adapting algorithms that merge object annotations across their maps so observations of the same object can be linked without creating duplicate entries.",
+    "tags": [
+      "Robotics",
+      "VLMs",
+      "SLAM"
+    ],
+    "art": "",
+    "url": "",
+    "linkLabel": ""
+  },
+  {
     "id": "vnforge",
     "title": "VNForge",
     "type": "Hackathon",
@@ -19,9 +35,9 @@
     "id": "rock-iguanas",
     "title": "Rock iguana microbiomes",
     "type": "Research",
-    "year": "Master’s research",
+    "year": "2023–2025",
     "summary": "Studying how seasonality and human activity relate to the microbiome and physiology of endangered Bahamian rock iguanas.",
-    "description": "My master’s work combined hindgut microbiome analysis with physiological metadata. The analysis used QIIME2, statistical modeling, and reproducible workflows in Nextflow and Bash to explore conservation questions.",
+    "description": "Analyzed gut microbiome and health data using mixed-effects models and multivariate tests. Developed a regression model to combine glucose readings from two instruments, and automated analysis workflows with Nextflow for an HPC cluster. The work led to two pending publications.",
     "tags": [
       "Microbiomes",
       "R",
@@ -50,9 +66,9 @@
     "id": "lucid",
     "title": "Lucid competition",
     "type": "Hackathon",
-    "year": "Team project",
-    "summary": "Our team’s contribution to Utah State University’s Lucid competition.",
-    "description": "The repository contains our team’s competition contribution. Further context and my specific contribution can be added as the project write-up develops.",
+    "year": "2026",
+    "summary": "Built a rule-based bot for Lucid’s real-time strategy competition and advanced to the semifinals.",
+    "description": "Built a rule-based bot for Lucid’s November 2026 real-time strategy competition. Our team advanced to the semifinals.",
     "tags": [
       "Teamwork",
       "Competition"

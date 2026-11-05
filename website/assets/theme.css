@@ -25,3 +25,15 @@
 .publication-card .text-link{margin-top:18px}
 .site-header nav{flex-wrap:wrap;gap:12px 20px;justify-content:flex-end}
 @media(max-width:600px){.publication-card{padding:23px}.site-header nav{justify-content:flex-start}}
+
+/* Text fills the cards when no meaningful image is supplied. */
+.identity-card.identity-text-only{display:block;padding:36px;min-height:0}
+.identity-text-only .identity-copy{padding:0}
+.identity-text-only .intro{max-width:640px;font-size:16px}
+.identity-text-only .identity-copy h1{max-width:none}
+.current-card.current-text-only{display:flex;flex-direction:column;padding:30px;min-height:0}
+.current-text-only .current-copy{padding:0;flex:1}
+.current-text-only .current-copy>p:not(.eyebrow){font-size:15px}
+.current-text-only .current-copy h2{max-width:none}
+.teaching-feature.teaching-text-only{display:block}
+@media(max-width:600px){.identity-card.identity-text-only,.current-card.current-text-only{padding:25px}}

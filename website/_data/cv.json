@@ -10,17 +10,40 @@
   },
   "work": [
     {
+      "name": "Utah State University · Department of Mathematics · Kevin Moon Lab",
+      "position": "Graduate Research Assistant",
+      "category": "research",
+      "startDate": "2026-01-01",
+      "endDate": "",
+      "current": true,
+      "highlights": [
+        "Working on swarm robotics, integrating vision-language models into SLAM algorithms.",
+        "Integrating vision-language and large language models into robot-to-robot communication so robots can share and interpret observations without a central controller.",
+        "Adapting algorithms that merge object annotations across robots’ maps so observations of the same object can be linked without duplicate entries."
+      ]
+    },
+    {
       "name": "Utah State University",
-      "position": "Research Assistant",
+      "position": "Recitation Leader · MATH 1050 College Algebra",
+      "category": "teaching",
+      "startDate": "",
+      "endDate": "",
+      "current": true,
+      "highlights": [
+        "Leading College Algebra recitations and helping students understand the reasoning behind each step."
+      ]
+    },
+    {
+      "name": "Utah State University · Department of Biology · Karen Kapheim Lab",
+      "position": "Graduate Research Assistant",
       "category": "research",
       "startDate": "2023-08-01",
-      "endDate": "",
+      "endDate": "2025-12-01",
       "highlights": [
-        "Analyzed 600+ hindgut samples (FASTQ files) in QIIME2 and integrated with physiological and hormone metadata across two research chapters",
-        "Built automated and reproducible pipelines using Nextflow, Bash, and Conda, reducing the analysis time significantly.",
-        "Applied compositional data analysis, ordination (PCoA, NMDS), and statistical modeling (PERMANOVA, ANOVA, LM, LMM, GLMs, ANCOM-BC2, and others) to evaluate microbial shifts in endangered rock iguanas",
-        "Maintained reproducibility and version control via GitHub",
-        "Contributed to ongoing manuscript on conservation implications for endangered species"
+        "Analyzed gut microbiome and health data in R using mixed-effects models and multivariate tests to assess relationships between health measurements and microbiome composition.",
+        "Developed a regression model to predict Accu-Chek readings from i-STAT measurements, with a cross-validated MAE of 9.0 mg/dL and RMSE of 12.8 mg/dL.",
+        "Automated data-analysis workflows with Nextflow and adapted them for a high-performance computing cluster.",
+        "This work led to two pending publications on endangered rock iguana subspecies."
       ]
     },
     {
@@ -52,33 +75,45 @@
       "position": "Intern Research Assistant",
       "category": "research",
       "startDate": "2021-01-01",
-      "endDate": "2022-12-01",
+      "endDate": "2021-05-01",
       "highlights": [
-        "Developed Python automation scripts for gene selection and Maintained reproducibility via GitHub",
-        "Contributed to a published peer-reviewed publication"
+        "Developed branching logic for a Python bioinformatics pipeline that checks dependencies, prompts users to select tools, passes their inputs through Bash commands, and collects the output. This work contributed to a published paper.",
+        "Developed a Python script to retrieve PAM250 scores for aligned amino acid pairs between humans and other species, replacing repetitive manual matrix lookups."
       ]
     }
   ],
   "education": [
     {
+      "institution": "Utah State University · Department of Mathematics",
+      "area": "Statistics and Data Science",
+      "studyType": "PhD",
+      "startDate": "2026-08-01",
+      "endDate": "",
+      "summary": "Current doctoral study."
+    },
+    {
       "institution": "Utah State University",
-	    "location": "Logan, Utah",
-      "area": "Biology",
-      "studyType": "MSc",
+      "location": "Logan, Utah",
+      "area": "Computational Biology",
+      "studyType": "MS",
       "startDate": "2023-08-01",
       "endDate": "2025-12-01",
       "score": "4",
-      "courses": ["Bioinformatics, R for researchers, and Soil microbiome"],
-      "summary": "Factors causing changes in the microbiome composition and physiological changes of the endangered Bahamian rock iguanas"
+      "courses": [
+        "Bioinformatics, R for researchers, and Soil microbiome"
+      ],
+      "summary": "Research on gut microbiome composition and physiological measurements in endangered Bahamian rock iguanas."
     },
     {
       "institution": "Faculty of Agriculture, Cairo University",
-      "area": "Biotechnology", 
+      "area": "Agricultural Biotechnology",
       "studyType": "BSc",
-      "startDate": "2017-09-01",
+      "startDate": "2017-08-01",
       "endDate": "2021-05-01",
       "location": "Giza, Egypt",
-      "courses": ["Genomics, Microbiology, and plant biology"],
+      "courses": [
+        "Genomics, Microbiology, and plant biology"
+      ],
       "summary": "Studied the biosynthesis of gold nanoparticles using bacterial and fungal strains, their antimicrobial effects, and potential applications as preservative materials"
     }
   ],

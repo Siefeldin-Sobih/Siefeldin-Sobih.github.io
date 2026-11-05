@@ -2,9 +2,9 @@
   "name": "Siefeldin Sobih",
   "shortName": "Saif",
   "initials": "SS",
-  "role": "Researcher. Educator. Builder.",
-  "intro": "Hi, you can call me Saif. I work across biology, data, and code, and enjoy helping people make sense of all three.",
-  "bio": "My background spans molecular biology, statistical modeling, and science education. I’m drawn to questions that connect living systems with computational tools—and to sharing what I learn along the way.",
+  "role": "Statistics, data science & robotics",
+  "intro": "Hi, you can call me Saif. I enjoy understanding how tools work and developing ones that use math and logically sound algorithms to solve data problems. I have 4+ years of research experience as a data scientist and bioinformatician, including developing linear mixed-effects models for biological data.",
+  "bio": "I’m a PhD student in Statistics and Data Science at Utah State University. I enjoy understanding how tools work and developing ones that use math and logically sound algorithms to solve data problems. My 4+ years of research experience span data science and bioinformatics, including linear mixed-effects models, regression, and reproducible analysis workflows. I now work on swarm robotics, integrating vision-language models into SLAM algorithms.",
   "email": "siefeldinsobih@gmail.com",
   "location": "Logan, Utah",
   "photo": "",
@@ -30,33 +30,47 @@
   ],
   "home": {
     "teaching": {
-      "heading": "Teaching & mentoring",
-      "title": "Making biology approachable.",
-      "description": "From computational biology to microbiology labs, I enjoy turning difficult concepts into something students can explore and use.",
-      "image": "assets/teaching.svg",
-      "imageAlt": "Geometric teaching board illustration with a scatter plot",
+      "heading": "Currently teaching",
+      "title": "MATH 1050 · College Algebra",
+      "description": "I’m currently a recitation leader for College Algebra at Utah State University, helping students work through problems and understand the math behind the steps.",
+      "image": "",
+      "imageAlt": "",
       "url": "teaching/"
     },
     "research": {
       "heading": "Currently working on",
-      "title": "Biology, through a computational lens.",
-      "description": "My research background connects microbiomes, physiology, and conservation. Alongside it, I’m building my skills in machine learning and reproducible analysis.",
-      "image": "assets/research.svg",
-      "imageAlt": "Diagram connecting biological samples, analysis, and interpretation",
-      "url": "work/#rock-iguanas"
+      "title": "Swarm robotics & VLMs",
+      "description": "I’m working on integrating vision-language models into SLAM algorithms so robots can share and interpret what they observe. I’m also adapting how object annotations are merged across robots’ maps, so the same object isn’t recorded more than once.",
+      "image": "",
+      "imageAlt": "",
+      "url": "work/#swarm-robotics"
     }
   },
   "cvPdf": "assets/files/cv.pdf",
   "certificatesUrl": "https://drive.google.com/drive/folders/1h0Kd9bKYtfLiGb4M3B7OC7jOcPwLtbiP?usp=sharing",
   "skills": [
-    "R",
     "Python",
-    "Bash",
+    "R",
+    "PyTorch",
+    "vLLM",
+    "Vision-language models",
+    "SLAM",
+    "Linear mixed-effects models",
+    "Regression",
+    "Multivariate analysis",
     "Nextflow",
-    "Statistical modeling",
-    "Microbiome analysis"
+    "Linux",
+    "Git",
+    "Conda"
   ],
   "teaching": [
+    {
+      "course": "College Algebra",
+      "code": "MATH 1050",
+      "institution": "Utah State University",
+      "date": "Current",
+      "description": "Recitation leader. Helping students work through algebra problems and understand the reasoning behind each step."
+    },
     {
       "course": "Computational Approaches to Biology",
       "code": "BIOL 3070",

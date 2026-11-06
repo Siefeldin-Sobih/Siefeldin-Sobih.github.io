@@ -46,12 +46,13 @@
       "url": "work/#swarm-robotics"
     },
     "goals": {
-      "heading": "Upcoming goals",
-      "title": "Upcoming goals",
+      "heading": "Hobby / side goals",
+      "title": "Hobby / side goals",
+      "description": "Sometimes I like to challenge myself in my spare time. Here are a few things I’m working towards.",
       "items": [
         "I’m planning to join an upcoming MLH hackathon.",
         "I’d like to try a new Kaggle challenge.",
-        "I’m aiming to get accepted for a summer internship."
+        "I’m working towards getting accepted for a summer 2026 internship."
       ]
     }
   },

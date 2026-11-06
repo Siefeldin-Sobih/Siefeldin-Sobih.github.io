@@ -24,7 +24,9 @@ jobs:
         working-directory: website
         run: npm run build
       - name: Preserve custom domain
-        run: cp CNAME website/dist/CNAME
+        run: |
+          cp CNAME website/dist/CNAME
+          git rev-parse HEAD > website/dist/deployment.txt
       - name: Publish to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:

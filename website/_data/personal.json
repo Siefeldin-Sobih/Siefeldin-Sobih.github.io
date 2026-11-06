@@ -47,10 +47,11 @@
     },
     "goals": {
       "heading": "Upcoming goals",
-      "title": "What’s next",
+      "title": "Upcoming goals",
       "items": [
         "I’m planning to join an upcoming MLH hackathon.",
-        "I’d like to try a new Kaggle challenge."
+        "I’d like to try a new Kaggle challenge.",
+        "I’m aiming to get accepted for a summer internship."
       ]
     }
   },

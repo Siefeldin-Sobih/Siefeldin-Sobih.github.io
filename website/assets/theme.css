@@ -41,3 +41,19 @@
 .current-copy{min-width:0;max-width:100%}
 .current-copy>h2,.current-copy>p{max-width:100%;overflow-wrap:break-word}
 @media(max-width:850px){.current-card>img{height:240px;min-height:0;aspect-ratio:auto;object-fit:contain;background:#596951}.current-card>img[src*="shared-maps"]{background:#2c4151}}
+
+/* The middle card replaces the combined space of the two former illustrations. */
+.current-grid-with-goals{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) minmax(0,1fr)}
+.current-grid-with-goals .current-card{display:flex;flex-direction:column;padding:28px;min-height:315px}
+.current-grid-with-goals .current-copy{padding:0;flex:1}
+.current-grid-with-goals .current-copy>p:not(.eyebrow){font-size:14px;line-height:1.8}
+.current-grid-with-goals .current-copy h2{font-size:27px}
+.goals-card{padding:28px;background:#e8ece6}
+.goals-card h2{font-size:29px}
+.goals-list{list-style:none;counter-reset:goals;padding:0;margin:22px 0 0}
+.goals-list li{counter-increment:goals;position:relative;padding:17px 0 17px 36px;color:var(--muted);font-size:15px;line-height:1.8}
+.goals-list li+li{border-top:1px solid #ccd4c8}
+.goals-list li::before{content:counter(goals,decimal-leading-zero);position:absolute;left:0;top:17px;font-size:12px;color:var(--olive);font-weight:600}
+@media(min-width:1450px){.current-grid-with-goals .current-card{min-height:340px}}
+@media(max-width:1000px){.current-grid-with-goals{grid-template-columns:repeat(3,minmax(0,1fr))}.current-grid-with-goals .current-card,.goals-card{padding:23px}.current-grid-with-goals .current-copy h2{font-size:25px}}
+@media(max-width:700px){.current-grid-with-goals{grid-template-columns:1fr}.current-grid-with-goals .current-card{min-height:0}.current-grid-with-goals .current-copy .button{margin-top:5px}}

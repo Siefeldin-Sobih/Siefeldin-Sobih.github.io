@@ -140,6 +140,27 @@
                   "type": "string"
                 }
               ]
+            },
+            {
+              "name": "goals",
+              "label": "Upcoming goals",
+              "type": "object",
+              "fields": [
+                {
+                  "name": "heading",
+                  "type": "string"
+                },
+                {
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "name": "items",
+                  "label": "Goals",
+                  "type": "string",
+                  "list": true
+                }
+              ]
             }
           ]
         },

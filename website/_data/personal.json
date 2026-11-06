@@ -33,17 +33,25 @@
       "heading": "Currently teaching",
       "title": "MATH 1050 · College Algebra",
       "description": "I’m currently a recitation leader for College Algebra at Utah State University, helping students work through problems and understand the math behind the steps.",
-      "image": "assets/algebra.svg",
-      "imageAlt": "Factoring a quadratic: x squared minus 5x plus 6 equals zero; (x minus 2)(x minus 3) equals zero; x equals 2 or 3.",
+      "image": "",
+      "imageAlt": "",
       "url": "teaching/"
     },
     "research": {
       "heading": "Currently working on",
       "title": "Swarm robotics & VLMs",
       "description": "I’m integrating vision-language models into SLAM algorithms, working on how robots share observations and link the same objects across their maps.",
-      "image": "assets/shared-maps.svg",
-      "imageAlt": "Conceptual diagram: two robots link observations of the same object across their local maps.",
+      "image": "",
+      "imageAlt": "",
       "url": "work/#swarm-robotics"
+    },
+    "goals": {
+      "heading": "Upcoming goals",
+      "title": "What’s next",
+      "items": [
+        "I’m planning to join an upcoming MLH hackathon.",
+        "I’d like to try a new Kaggle challenge."
+      ]
     }
   },
   "cvPdf": "assets/files/cv.pdf",

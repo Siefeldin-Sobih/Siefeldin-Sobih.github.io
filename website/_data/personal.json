@@ -7,7 +7,7 @@
   "bio": "I’m a PhD student in Statistics and Data Science at Utah State University. I enjoy understanding how tools work and developing ones that use math and logically sound algorithms to solve data problems. My 4+ years of research experience span data science and bioinformatics, including linear mixed-effects models, regression, and reproducible analysis workflows. I now work on swarm robotics, integrating vision-language models into SLAM algorithms.",
   "email": "siefeldinsobih@gmail.com",
   "location": "Logan, Utah",
-  "photo": "",
+  "photo": "assets/uploads/saif-autumn-portrait.png",
   "photoAlt": "Portrait of Siefeldin Sobih",
   "banner": {
     "enabled": true,

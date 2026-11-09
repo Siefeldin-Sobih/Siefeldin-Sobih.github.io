@@ -51,6 +51,8 @@
 .goals-card{padding:28px;background:#e8ece6}
 .goals-card h2{font-size:29px}
 .goals-intro{font-size:14px;line-height:1.8;margin-top:14px}
+.identity-card .portrait{min-height:380px;object-position:52% 45%}
+@media(max-width:600px){.identity-card .portrait{height:290px;min-height:0;object-position:50% 40%}}
 .goals-list{list-style:none;counter-reset:goals;padding:0;margin:22px 0 0}
 .goals-list li{counter-increment:goals;position:relative;padding:17px 0 17px 36px;color:var(--muted);font-size:15px;line-height:1.8}
 .goals-list li+li{border-top:1px solid #ccd4c8}

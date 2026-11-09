@@ -13,8 +13,9 @@
 }
 .button{background:var(--accent)}
 .button:hover{background:var(--accent-hover)}
-.goals-card{background:#e6eadb}
-.goals-list li+li{border-color:#c9cfba}
+.goals-card{background:var(--surface)}
+.goals-list li+li{border-color:var(--border)}
+.goals-list li::before{color:var(--accent)}
 .site-header nav .nav-contact{border-color:var(--border)}
 .experience-tab[aria-selected="true"]{background:var(--soft)}
 .experience-tab[aria-selected="true"] .experience-icon{background:#dae1cc;color:var(--olive)}

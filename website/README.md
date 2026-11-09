@@ -1,5 +1,7 @@
 # Personal website
 
+Autumn palette trial: colors are in `assets/autumn.css`. To restore the original palette, remove its stylesheet link from `_layouts/personal.liquid` and reset the theme-color meta value to `#f1f2ef`.
+
 The live website is built from this folder. Editing and pushing files here to main automatically publishes them to https://siefeldinsobih.com.
 
 Content: `_data/`. Blog posts: `_posts/`. Images: `assets/uploads/`. Fonts and colors: `assets/theme.css`. Navigation: `_layouts/personal.liquid`.

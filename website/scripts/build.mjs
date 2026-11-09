@@ -11,7 +11,7 @@ const base = (process.env.SITE_BASE || '').replace(/\/$/, '');
 if (base && (!base.startsWith('/') || base.includes('..'))) throw new Error('SITE_BASE must be a clean URL path');
 const engine = new Liquid({ root: path.join(root, '_includes'), extname: '.liquid', jekyllInclude: true, strictFilters: true });
 const assetVersions = new Map();
-for (const name of ['theme.css','experience.css','blog.css','references.css','site.js']) {
+for (const name of ['theme.css','experience.css','blog.css','references.css','autumn.css','site.js']) {
   assetVersions.set('assets/' + name, createHash('sha256').update(await readFile(path.join(root,'assets',name))).digest('hex').slice(0,12));
 }
 function relativeUrl(value) {

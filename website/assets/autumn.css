@@ -1,0 +1,21 @@
+/* Autumn palette trial. Remove this stylesheet link to restore the original palette. */
+:root {
+  --background:#f4efe6;
+  --surface:#fffcf6;
+  --ink:#26323a;
+  --muted:#55544d;
+  --accent:#835133;
+  --accent-hover:#683d26;
+  --blue:#52636a;
+  --olive:#596547;
+  --border:#ddd4c7;
+  --soft:#e9ece0;
+}
+.button{background:var(--accent)}
+.button:hover{background:var(--accent-hover)}
+.goals-card{background:#e6eadb}
+.goals-list li+li{border-color:#c9cfba}
+.site-header nav .nav-contact{border-color:var(--border)}
+.experience-tab[aria-selected="true"]{background:var(--soft)}
+.experience-tab[aria-selected="true"] .experience-icon{background:#dae1cc;color:var(--olive)}
+.reference-avatar-placeholder{background:var(--soft)}
